@@ -42,7 +42,6 @@ Answer the user's questions based ONLY on the information in this report. Be con
           content: question,
         },
       ],
-      maxTokens: 500,
     });
 
     console.log("✅ [Report Chat] Answer generated");
