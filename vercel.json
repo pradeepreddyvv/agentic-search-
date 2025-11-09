@@ -4,5 +4,13 @@
       "path": "/api/featured-markets",
       "schedule": "0 0 * * *"
     }
-  ]
+  ],
+  "functions": {
+    "api/forecast/route.ts": {
+      "maxDuration": 10
+    },
+    "api/**/*.ts": {
+      "maxDuration": 10
+    }
+  }
 }
