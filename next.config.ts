@@ -27,8 +27,6 @@ const nextConfig: NextConfig = {
   compress: true,
   // Optimize production builds
   productionBrowserSourceMaps: false,
-  // Reduce build output
-  output: 'standalone',
 };
 
 export default nextConfig;
