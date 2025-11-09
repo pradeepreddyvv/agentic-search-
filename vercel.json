@@ -1,8 +1,8 @@
 {
   "crons": [
     {
-      "path": "/api/cron/update-featured-markets",
-      "schedule": "0 */1 * * *"
+      "path": "/api/featured-markets",
+      "schedule": "0 0 * * *"
     }
   ]
 }
