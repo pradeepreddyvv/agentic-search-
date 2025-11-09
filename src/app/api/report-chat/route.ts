@@ -3,6 +3,7 @@ import { anthropic } from "@ai-sdk/anthropic";
 import { generateText } from "ai";
 
 export const runtime = "nodejs";
+export const maxDuration = 10; // Vercel Hobby tier limit
 
 /**
  * Report Chat API
