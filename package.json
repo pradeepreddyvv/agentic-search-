@@ -1,5 +1,5 @@
 {
-  "name": "polyseer",
+  "name": "omnisence",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,7 +12,6 @@
     "debug:drivers": "tsx scripts/debug-drivers.ts",
     "test:valyu": "tsx scripts/test-valyu-search.ts",
     "test:valyu:simple": "tsx scripts/test-valyu-simple.ts"
-    
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^2.0.42",

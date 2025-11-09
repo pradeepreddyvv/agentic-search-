@@ -67,9 +67,8 @@ const result = await runUnifiedForecastPipeline({
 ```
 
 
-### Popular Markets to Try (2025)
+### Popular Markets to Try (2025) on Polymarket:
 
-**Polymarket:**
 - `https://polymarket.com/event/will-ai-achieve-agi-by-2030` - AI/Technology
 - `https://polymarket.com/event/bitcoin-200k-by-2030` - Cryptocurrency
 - `https://polymarket.com/event/will-trump-win-2024` - Politics
