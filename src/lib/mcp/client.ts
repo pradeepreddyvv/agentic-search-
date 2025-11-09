@@ -51,7 +51,7 @@ export class PolymarketMCPClient {
   // StreamableHTTPClientTransport expects a URL object
   this.transport = new StreamableHTTPClientTransport(new URL(this.serverUrl));
     this.client = new Client({
-      name: 'Omnisence MCP Client',
+      name: 'Omnisense MCP Client',
       version: '1.0.0',
     }, {
       capabilities: {},

@@ -19,14 +19,14 @@ export default function ShareModal({ open, onOpenChange, marketTitle, verdict, c
   const [copied, setCopied] = useState(false);
   const [activeTab, setActiveTab] = useState("x");
 
-  const shareUrl = `https://omnisence.ai?via=share&r=${Math.random().toString(36).substr(2, 9)}`;
+  const shareUrl = `https://omnisense.ai?via=share&r=${Math.random().toString(36).substr(2, 9)}`;
 
-  const xText = `I ran this prediction market through Omnisence. Verdict: ${verdict === "YES" ? "✅" : "❌"} ${verdict} (${confidence}% confidence).
+  const xText = `I ran this prediction market through Omnisense. Verdict: ${verdict === "YES" ? "✅" : "❌"} ${verdict} (${confidence}% confidence).
 
 AI-powered deep research + analyst-grade report in 5s. Try it: ${shareUrl}`;
 
   const redditTitle = `AI verdict on "${marketTitle}": ${verdict === "YES" ? "✅" : "❌"} ${verdict} (report inside)`;
-  const redditBody = `Just analyzed this Polymarket prediction market on Omnisence and got a ${confidence}% confidence ${verdict} verdict.
+  const redditBody = `Just analyzed this Polymarket prediction market on Omnisense and got a ${confidence}% confidence ${verdict} verdict.
 
 The AI analyzed multiple sources and provided a detailed breakdown with citations. Works with Polymarket.
 
@@ -131,7 +131,7 @@ Check it out: ${shareUrl}`;
                 Confidence: {confidence}%
               </div>
               <div className="text-sm opacity-80">
-                omnisence.ai
+                omnisense.ai
               </div>
             </div>
             <Button onClick={handleExportImage} className="w-full">

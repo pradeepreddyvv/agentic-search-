@@ -73,7 +73,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1, delay: 0.3 }}
               >
-                {"Omnisence".split("").map((letter, i) => (
+                {"Omnisense".split("").map((letter, i) => (
                   <motion.span
                     key={i}
                     initial={{ opacity: 0, y: 20 }}

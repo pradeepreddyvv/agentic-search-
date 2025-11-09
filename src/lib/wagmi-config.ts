@@ -7,8 +7,8 @@ export const wagmiConfig = createConfig({
   connectors: [
     metaMask({
       dappMetadata: {
-  name: 'Omnisence',
-  url: 'https://omnisence.app',
+        name: 'Omnisense',
+        url: 'https://omnisense.app',
         iconUrl: '/polymarket.png',
       },
     }),

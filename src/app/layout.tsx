@@ -21,21 +21,21 @@ const spaceGrotesk = Space_Grotesk({
 const description = "AI-powered deep research for prediction markets. Supports Polymarket.";
 
 export const metadata: Metadata = {
-  title: "Omnisence | See the future.",
+  title: "Omnisense | See the future.",
   description,
   keywords: ["polymarket", "prediction markets", "AI deep research", "forecasting", "analysis"],
-  authors: [{ name: "Omnisence" }],
+  authors: [{ name: "Omnisense" }],
   openGraph: {
-    title: "Omnisence | See the future.",
+    title: "Omnisense | See the future.",
     description,
-    url: "https://omnisence.xyz",
-    siteName: "Omnisence",
+    url: "https://omnisense.xyz",
+    siteName: "Omnisense",
     images: [
       {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Verdict: ✅ YES • Confidence 78% • omnisence.xyz",
+        alt: "Verdict: ✅ YES • Confidence 78% • omnisense.xyz",
       },
     ],
     locale: "en_US",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Omnisence | See the future.",
+    title: "Omnisense | See the future.",
     description,
     images: ["/og.png"],
   },
