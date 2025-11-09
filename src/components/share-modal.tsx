@@ -26,9 +26,9 @@ export default function ShareModal({ open, onOpenChange, marketTitle, verdict, c
 AI-powered deep research + analyst-grade report in 5s. Try it: ${shareUrl}`;
 
   const redditTitle = `AI verdict on "${marketTitle}": ${verdict === "YES" ? "✅" : "❌"} ${verdict} (report inside)`;
-  const redditBody = `Just analyzed this prediction market on Polyseer and got a ${confidence}% confidence ${verdict} verdict.
+  const redditBody = `Just analyzed this Polymarket prediction market on Polyseer and got a ${confidence}% confidence ${verdict} verdict.
 
-The AI analyzed 40+ sources and provided a detailed breakdown with citations. Works with Polymarket and Kalshi.
+The AI analyzed 40+ sources and provided a detailed breakdown with citations. Works with Polymarket.
 
 Check it out: ${shareUrl}`;
 
